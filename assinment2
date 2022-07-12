@@ -30,11 +30,11 @@
             temp = first;
             first = second;
             second = temp;
-            printf("\nYour value is swaped,\n first : %d and second : 				%d",first,second);
+            printf("\nYour value is swaped,\n first : %d and second : %d \n",first,second);
             return 0;
         }
 
-4.  // Write a program to swap values of two int variables without using a third 	 	 variable.
+4.  // Write a program to swap values of two int variables without using a third variable.
     #include <stdio.h>
     int main()
         {
@@ -44,11 +44,11 @@
             first +=second;
             second = first-second;
             first = first-second;
-            printf("\nYour value is swaped,\n first : %d and second : 				%d\n",first,second);
+            printf("\nYour value is swaped,\n first : %d and second : %d\n",first,second);
             return 0;
         }
 
-5.  // Write a program to input a three-digit number and display the sum of the          	digits.
+5.  // Write a program to input a three-digit number and display the sum of the digits.
     #include<stdio.h>
     int main()
         {
@@ -63,7 +63,7 @@
             printf("Sum of the digit is : %d\n",sum);
         }
 
-6.	// Write a program which takes a character as an input and displays its 	ASCII code.
+6.	// Write a program which takes a character as an input and displays its ASCII code.
     	#include <stdio.h>
    	int main()
         {
@@ -95,7 +95,7 @@
     }
 
 
-8.	// Write a program to check whether the given number is even or odd 	using a bitwise operator.
+8.	// Write a program to check whether the given number is even or odd using a bitwise operator.
      #include <stdio.h>
      int main()
     {
